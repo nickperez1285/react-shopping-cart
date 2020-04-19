@@ -22,10 +22,12 @@ function App() {
 	const removeItem = itemID => {
 
 		 const newCart = cart.filter(item => item.id !== itemID)
+		 const removedItem = cart.filter(item => item.id === itemID)
+		 
+		 setProducts([...products, ...removedItem ])
 		 setCart(newCart)
 
-		 // const refill = products.filter(pros => pros.id === itemID )
-		 // setProducts(...products, refill)
+		 
 
 	}
 
