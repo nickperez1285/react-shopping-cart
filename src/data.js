@@ -22,9 +22,14 @@ export default [
 	},
 	{
 		id: 4,
-		title: 'Grokking Algorithms',
-		price: 40.00,
+		title: 'Stamped from the Beginning',
+		price: 12.04,
 		image:
-			'https://images-na.ssl-images-amazon.com/images/I/61uUPXbhMxL._SX397_BO1,204,203,200_.jpg'
-	}
+			'https://images-na.ssl-images-amazon.com/images/I/51X2Qat32TL._SX331_BO1,204,203,200_.jpg'
+	},
+	{
+		id: 5,
+		title: 'Where the Crawdads Sing',
+		price: 9.59,
+		image:'https://images-na.ssl-images-amazon.com/images/I/51NYjNgldSL._SX330_BO1,204,203,200_.jpg'	}
 ];
